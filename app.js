@@ -8,12 +8,12 @@ while (numeroUsuario != numeroSecreto) {
 
     //Este codigo realiza la comparacion
     if (numeroUsuario == numeroSecreto) {
-        alert (`Acertaste, el numero es: ${numeroSecreto}. Lo lograste en ${intentos}.`)
+        alert (`Acertaste, el numero es: ${numeroSecreto}. Lo lograste en ${intentos} veces.`)
     } else if (numeroUsuario < numeroSecreto) {
             alert ("el numero secreto es mayor")
     } else {
         alert ("el numero secreto es menor")
     } 
-    //contador de intentos
+    //contador de intentos en los que no acierta el jugador
     intentos = intentos + 1;
 } 
