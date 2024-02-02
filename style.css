@@ -1,102 +1,125 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    color: white;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  border: 1px solid black;
 }
 
 body {
-    background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
+  background: linear-gradient(
+    #1394a5 0%,
+    #041832 33.33%,
+    #041832 66.67%,
+    #010b0e 100%
+  );
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
 }
 
-
 body::before {
-    background-image: url("img/code.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    content: "";
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0.4;
+  background-image: url("img/code.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
 }
 
 .container {
-    width: 1200px;
-    height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 24px;
-    border: 1px solid #1875E8;
-    box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
-    background-image: url("img/Ruido.png");
-    background-size: 100% 100%;
-    position: relative;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 24px;
+  border: 1px solid #1875e8;
+  box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
+  background-image: url("img/Ruido.png");
+  background-size: 100% 100%;
+  position: relative;
 }
 
 .container__contenido {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    bottom: 0;
-}
-
-.container__informaciones {
-    flex: 1;
-    padding: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
 }
 
 .container__boton {
-    border-radius: 16px;
-    background: #1875E8;
-    padding: 16px 24px;
-    width: 100%;
-    font-size: 24px;
-    font-weight: 700;
-    border: none;
-    margin-top: 16px;
+  border-radius: 16px;
+  background: #1875e8;
+  padding: 16px 24px;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 700;
+  border: none;
+  margin-top: 16px;
 }
 
 .container__texto {
-    margin: 16px 0 16px 0;
+  /* margin: 16px 0 16px 0; */
 }
 
-.container__texto-azul {
-    color: #1875E8;
+.container__imagen-robot {
+  width: 50%;
+  border: 1px solid black;
+}
+
+.container__informaciones {
+  width: 10%;
+  border: 1px solid black;
+  flex: 1;
+  padding: 20px;
 }
 
 h1 {
-    font-family: 'Chakra Petch', sans-serif;
-    font-size: 72px;
+  border: 1px solid black;
+  color: #1875e8;
 }
 
-h2,
-p,
-button {
-    font-family: 'Inter', sans-serif;
-}
+
 
 h2 {
-    font-size: 32px;
-    font-weight: 400;
+  font-weight: 100;
+  border: 1px solid black;
 }
 
 .numberInput {
-    border-color: transparent;
-    border-radius: 5px;
-    color: #01080E;
+  border-color: transparent;
+  border-radius: 5px;
+  padding: ;
+  width: 40%;
+  color: #01080e;
+  border: 1px solid black;
 }
 
 .buttonPlay {
-    color: #01080E;
+  color: #1875e8;
+  font-weight: bold;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px 20px;
 }
 
 .buttonReset {
-    color: #1875E8;
+  color: #1875e8;
+  font-weight: bold;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 5px;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px 10px;
 }
+
+
